@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
       home: const MyHomePage(
-        title: 'Detailsec',
+        title: '',
       ),
     );
   }
@@ -42,17 +42,17 @@ class MyHomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(title),
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-      ),
-      body: const Padding(
+    return const Scaffold(
+      // appBar: AppBar(
+      //   title: Text(title),
+      //   backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+      // ),
+      body: Padding(
         padding: EdgeInsets.all(16.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            DetailSection(),
+            DetailSection(image: 'assets/arrow-left.jpg', newImg: 'assets/Heart.jpg',),
             ImageSection(),
             TitleSection(),
             DescriptionSection(),
