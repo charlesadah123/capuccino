@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Details',
+      title: 'Detailed',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
@@ -47,17 +47,18 @@ class MyHomePage extends StatelessWidget {
       //   title: Text(title),
       //   backgroundColor: Theme.of(context).colorScheme.inversePrimary,
       // ),
-      body: Padding(
-        padding: EdgeInsets.all(16.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            DetailSection(image: 'assets/arrow-left.jpg', newImg: 'assets/Heart.jpg',),
-            ImageSection(image: 'Rectangle.jpg',),
-            TitleSection(),
-            DescriptionSection(),
-            PriceSection(),
-          ],
+      body: SingleChildScrollView(
+        child: Padding(
+          padding: EdgeInsets.all(16.0),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              DetailSection(image: 'assets/arrow-left.jpg', newImg: 'assets/Heart.jpg',),
+              ImageSection(image: 'Rectangle.jpg',),
+              DescriptionSection(),
+              PriceSection(),
+            ],
+          ),
         ),
       ),
     );

@@ -13,31 +13,33 @@ class DetailSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
+
       padding: EdgeInsets.all(16),
       child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
           Image.asset(
             image,
-            height: 20,
+            height: 30,
           ),
           SizedBox(
             width: 6.0,
           ),
           Text(
-            "Details",
+            "Detail",
             textAlign: TextAlign.center,
             style: TextStyle(
-              fontSize: 16.0,
-              fontWeight: FontWeight.w300,
+              fontSize: 18.0,
+              fontWeight: FontWeight.w700,
               fontFamily: 'Sora',
             ),
           ),
           SizedBox(
-            width: 6.0,
+            width: 12.0,
           ),
           Image.asset(
             newImg,
-            height: 20,
+            height: 30,
           ),
         ],
       ),
