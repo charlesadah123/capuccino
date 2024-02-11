@@ -53,7 +53,7 @@ class MyHomePage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             DetailSection(image: 'assets/arrow-left.jpg', newImg: 'assets/Heart.jpg',),
-            ImageSection(),
+            ImageSection(image: 'Rectangle.jpg',),
             TitleSection(),
             DescriptionSection(),
             PriceSection(),
