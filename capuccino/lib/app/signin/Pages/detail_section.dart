@@ -14,7 +14,7 @@ class DetailSection extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
 
-      padding: EdgeInsets.all(16),
+      padding: const EdgeInsets.all(16),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
@@ -22,10 +22,10 @@ class DetailSection extends StatelessWidget {
             image,
             height: 30,
           ),
-          SizedBox(
+          const SizedBox(
             width: 6.0,
           ),
-          Text(
+          const Text(
             "Detail",
             textAlign: TextAlign.center,
             style: TextStyle(
@@ -34,7 +34,7 @@ class DetailSection extends StatelessWidget {
               fontFamily: 'Sora',
             ),
           ),
-          SizedBox(
+          const SizedBox(
             width: 12.0,
           ),
           Image.asset(

@@ -31,7 +31,7 @@ git clone https://github.com/charlesadah123/capuccino.git
 Navigate to the project directory:
 
 
-![Screenshot of the final deliverable](./assets/screenshot.png)
+![Screenshot of the final deliverable](/assets/ScreenshotNew.PNG)
 bash
 Copy code
 cd cappuccino

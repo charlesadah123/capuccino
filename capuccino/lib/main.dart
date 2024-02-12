@@ -55,7 +55,8 @@ class MyHomePage extends StatelessWidget {
             children: [
               DetailSection(image: 'assets/arrow-left.jpg', newImg: 'assets/Heart.jpg',),
               ImageSection(image: 'Rectangle.jpg',),
-              DescriptionSection(image: 'assets/bean.jpg', secondImage: 'assets/milk.jpg',),
+              LabelSection(image: 'assets/bean.jpg', secondImage: 'assets/milk.jpg', iconColor: '#2f2d2c',),
+              DescriptionSection(),
               PriceSection(),
             ],
           ),
