@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+// The label Section
+
 class LabelSection extends StatelessWidget {
   const LabelSection({
     super.key,

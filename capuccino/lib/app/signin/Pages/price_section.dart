@@ -2,6 +2,9 @@ import 'package:capuccino/app/signin/Components/Buttons.dart';
 import 'package:flutter/material.dart';
 
 
+
+// The Pricing Section
+
 class PriceSection extends StatelessWidget {
   const PriceSection({super.key});
 

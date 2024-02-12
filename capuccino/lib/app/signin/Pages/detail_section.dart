@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// The detail section 
 class DetailSection extends StatelessWidget {
   const DetailSection({
     super.key,

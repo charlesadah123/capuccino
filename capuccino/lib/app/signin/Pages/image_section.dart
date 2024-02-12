@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+
+// The main image section
+
 class ImageSection extends StatelessWidget {
   const ImageSection({
     super.key,
