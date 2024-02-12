@@ -27,7 +27,7 @@ Clone this repository:
 
 bash
 Copy code
-git clone https://github.com/your_username/cappuccino.git
+git clone https://github.com/charlesadah123/capuccino.git
 Navigate to the project directory:
 
 bash
